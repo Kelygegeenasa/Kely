@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+/*tsesnuudiin tohirgoo*/
+#navbar {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+}
+#navbar h1 {
+  float: left;
+  padding: 20px;
+}
+#navbar a {
+  color: white;
+}
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover {
+  background-color: #444;
+  color: orange;
+}
+#showcase {
+  background: url("TIC-e1540828753370.jpg") center center/cover;
+  height: 600px;
+}
+.container {
+  color: white;
+  text-align: center;
+  padding-top: 170px;
+}
+.container h1 {
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+
+.container p {
+  padding-bottom: 40px;
+}
+
+.primary {
+  color: orange;
+}
+.container a {
+  display: inline-block;
+  font-size: 18px;
+  background-color: blueviolet;
+  color: blue;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+}
+.container a :hover {
+  background-color: blueviolet;
+}
+#td-medeelel {
+  height: 500px;
+}
+.medeelel-zurag {
+  background: url(Software\ Developer.jpg);
+  min-height: 100%;
+  width: 50%;
+  float: left;
+}
+.medeelel-text {
+  width: 50%;
+  float: right;
+  height: 100%;
+  padding: 60px;
+  text-align: center;
+  background-color: grey;
+}
+
+.library {
+  width: 33.33%;
+  float: left;
+  padding: 50px;
+  height: 100%;
+  background-color: darkkhaki;
+}
+
+.lunch {
+  width: 33.33%;
+  float: left;
+  padding: 50px;
+  height: 100%;
+  background-color: wheat;
+}
+
+.fitness {
+  width: 33.33%;
+  float: left;
+  padding: 50px;
+  height: 100%;
+  background-color: darkkhaki;
+}
+.hello {
+  height: 350px;
+}
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+
+#td-medeelel {
+  height: 500px;
+}
+.medeelel-zurag {
+  background: url(2) no-repeat center/center;
+  min-height: 80%;
+  width: 50%;
+  float: right;
+}
+.medeelel-text {
+  width: 50px;
+}
+#comments {
+  height: 100%;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+#comments h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#comments .comment {
+  padding: 20px;
+  background-color: orange;
+  color: black;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+#comments .comment img {
+  float: left;
+  width: 90px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+/* Contact form */
+.container1 {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+#contact-form textarea {
+  height: 200px;
+}
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+}
